@@ -1,0 +1,137 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "helvetica-neue";
+}
+
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "nixie";
+    src: url(./fonts/NixieOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "helvetica-italic";
+    src: url(./fonts/HelveticaNeueItalic.ttf);
+}
+
+@font-face {
+    font-family: "helvetica-neue";
+    src: url(./fonts/HelveticaNeueMedium.otf);
+}
+
+@font-face {
+    font-family: "alegreya-sc";
+    src: url(./fonts/AlegreyaSC-Medium.ttf);
+}
+
+@font-face {
+    font-family: "alegreya-sans";
+    src: url(./fonts/AlegreyaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "helvetica-bold";
+    src: url(./fonts/HelveticaNeueBold.otf);
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: "nixie";
+    font-size: 5.6rem;
+    color: white;
+}
+
+h2 {
+    font-size: 2.24rem;
+    color: rgba(255, 255, 255,0.5);
+}
+
+h3 {
+    font-family: "alegreya-sans";
+    color: #3A4F52;
+    font-size: 3.6rem;
+}
+
+h4 {
+    font-size: 3.6rem;
+    font-family: "alegreya-sans";
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.date {
+    font-size: 1.4rem;
+    font-family: "helvetica-italic";
+}
+
+a {
+    font-size: 1.4rem;
+    color: #4DA7CA;
+}
+
+.bold {
+    font-size: 3.7rem;
+     font-family: "helvetica-bold";
+}
+
+button {
+    color: #3A4F52;
+    border: 1px solid #3A4F52;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+header {
+    background-image: url(./fotos/header.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+section {
+    border: 1px solid red;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    /* Your tablet (portrait) styles here */
+}
+
+@media only screen and (max-width: 480px) {
+    /* Your mobile styles here */
+}
+
+
+/*  Dion:   Header
+            Testimonials
+    Pablo:  Our latest work
+            From The Blog
+            Footer
+    Anna:   Transparent
+*/
