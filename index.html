@@ -9,11 +9,13 @@
 <body>
     <header>
         <nav>
-            <p class="logo">New Interior.</p>
-            <div class="hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="top">
+                <p class="logo">New Interior.</p>
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
             <div class="hero">
                 <h1>SLIM & STYLISH</h1>
@@ -21,24 +23,25 @@
             </div>
         </nav>
     </header>
-    <section class="latest_works">
+    <section class="entries works">
         <div class="title">
             <div class="container_title">
                 <h3>Our Latest Works</h3>
                 <p>Take a look at some of our recent products</p>
             </div>
-            <button>View All</button>
+            <button class="green">View All</button>
         </div>
         <div class="gallery">
-            <img src="./assets/fotos/bild1.png" alt="stairs">
-            <img src="./assets/fotos/bild2.png" alt="sofa">
-            <img src="./assets/fotos/bild3.png" alt="kitchen">
-            <img src="./assets/fotos/bild4.png" alt="bedroom">
-            <img src="./assets/fotos/bild6.png" alt="livingroom">
-            <img src="./assets/fotos/bild7.png" alt="dinningroom">
+            <div><button>Lorem Rocks</button></div>
+            <div><button>Lorem Rocks</button></div>
+            <div><button>Lorem Rocks</button></div>
+            <div><button>Lorem Rocks</button></div>
+            <div><button>Lorem Rocks</button></div>
+            <div><button>Lorem Rocks</button></div>
         </div>
     </section>
     <section class="transparent services">
+        <div class="transparent_black"> 
         <div class="headline">
             <h3>Our Services</h3>
             <p>A little about what we do</p>
@@ -69,18 +72,19 @@
                     amet, hendrerit in lorem.</p>
             </div>
         </div>
+        </div>
     </section>
-    <section class="blog">
+    <section class="entries blog">
         <div class="title">
             <div class="container_title">
                 <h3>From the Blog</h3>
                 <p>Keep up with the latest happenings.</p>
             </div>
-            <button>View All</button>
+            <button class="green">View All</button>
         </div>
-        <div>
+        <div class="articles_container">
             <div class="blog_article">
-                <img src="" alt="">
+                <img src="./assets/fotos/bild8.png" alt="">
                 <h3>Design Your Mind</h3>
                 <p class="date">3 Nov, 2014</p>
                 <p class="text">In at accumsan risus. Nam id volutpat ante. Etiam vel mi
@@ -89,7 +93,7 @@
                 <a href="">Read More</a>
             </div>
             <div class="blog_article">
-                <img src="" alt="">
+                <img src="./assets/fotos/bild9.png" alt="">
                 <h3>Winter Is Comming</h3>
                 <p class="date">3 Nov, 2014</p>
                 <p class="text">In at accumsan risus. Nam id volutpat ante. Etiam vel mi
@@ -98,7 +102,7 @@
                 <a href="">Read More</a>
             </div>
             <div class="blog_article">
-                <img src="" alt="">
+                <img src="./assets/fotos/bild10.png" alt="">
                 <h3>The Illustration</h3>
                 <p class="date">3 Nov, 2014</p>
                 <p class="text">In at accumsan risus. Nam id volutpat ante. Etiam vel mi
@@ -109,6 +113,7 @@
         </div>
     </section>
     <section class="transparent quote">
+        <div class="transparent_black"> 
         <div class="square">
             <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc
                 nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit.</p>
@@ -123,27 +128,27 @@
         <div class="testimonials_container">
             <div class="testimonials_round">
                 <img src="./assets/fotos/person1.png" alt="">
-                <p>In at accumsan risus. Nam id volutpat ante.
+                <p>In at accumsan risus. Nam id volutpat ante.<br>
                     Etiam vel mi mattis, vulputate nunc nec, sodales
-                    nibh. Etiam nulla magna, gravida eget ultricies sit
+                    nibh. Etiam nulla magna, gravida eget ultricies sit <br>
                     amet, hendrerit in lorem.</p>
                 <p class="bold">John Doe</p>
                 <p>Head of Ideas, Technext</p>
             </div>
             <div class="testimonials_round">
                 <img src="./assets/fotos/person2.png" alt="">
-                <p>In at accumsan risus. Nam id volutpat ante.
+                <p>In at accumsan risus. Nam id volutpat ante.<br>
                     Etiam vel mi mattis, vulputate nunc nec, sodales
-                    nibh. Etiam nulla magna, gravida eget ultricies sit
+                    nibh. Etiam nulla magna, gravida eget ultricies sit <br>
                     amet, hendrerit in lorem.</p>
                 <p class="bold">Jane Doe</p>
                 <p>CEO, Apple Inc</p>
             </div>
             <div class="testimonials_round">
                 <img src="./assets/fotos/person3.png" alt="">
-                <p>In at accumsan risus. Nam id volutpat ante.
+                <p>In at accumsan risus. Nam id volutpat ante. <br>
                     Etiam vel mi mattis, vulputate nunc nec, sodales
-                    nibh. Etiam nulla magna, gravida eget ultricies sit
+                    nibh. Etiam nulla magna, gravida eget ultricies sit <br>
                     amet, hendrerit in lorem.</p>
                 <p class="bold">Albert Doe</p>
                 <p>Team Lead, Design Studio</p>
@@ -151,17 +156,19 @@
         </div>
     </section>
     <section class="transparent contact">
-        <div class="headline">
+        <div class="transparent_black">
+            <div class="headline">
             <h3>Contact Us</h3>
             <p>Feel free to drop us a line.</p>
         </div>
-        <div>
-            <form action="">
+        <div class="form_container">
+            <form>
                 <input type="text" name="" id="" placeholder="Your Name">
                 <input type="email" name="" id="" placeholder="Enter email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Something"></textarea>
+                <textarea name="text" id="" rows="1" placeholder="Write Something"></textarea>
                 <input type="submit" value="Say Hello">
             </form>
+        </div>
         </div>
     </section>
     <footer>
