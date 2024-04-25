@@ -109,9 +109,17 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 /* Dion */
+
+/* Header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo{
     font-size: 3.5rem;
@@ -138,19 +146,27 @@ header {
 }
 
 
-.hero{
-border: 1px solid red;
-height: 599px;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding-top: 190px;
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.testimonials_wrapper{
-display: flex;
-flex-direction: column;
-align-items: center;
+/* Testimonials */
+.testimonials {
+    padding: 5rem;
+    margin-bottom: 5rem;
+}
+
+.testimonials h3 {
+    text-align: center;
+}
+
+.testimonials p {
+    text-align: center;
+    color: black;
+    margin: 1.2rem 0;
 }
 
 .testimonials_container{
@@ -158,31 +174,21 @@ align-items: center;
     margin-top: 80px;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
 
 .testimonials_round{
-
     text-align: center;
 }
 
 .testimonials_round img{
     padding-right: 90px;
-    text-align: center;
 }
 
-.bold{
-    font-size: 1px;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
+.bold {
+    font-size: 1.2rem;
 }
 
-
-.testimonials_container p{
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-}
 
 .testimonials_container img{
     padding-left: 95px;
@@ -194,8 +200,6 @@ align-items: center;
 header {
     max-height: 900px;
 }
-
-
 
 .green:hover {
     background-color: #2B3E51;
@@ -248,7 +252,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.8s;
 }
+
+.gallery div:hover {
+    background-size: 200%;
+    background-blend-mode:screen;
+}
+
 
 .gallery div:nth-child(1) {
     background-image: url(./fotos/bild1.png);
@@ -275,24 +286,25 @@ header {
     width: calc((100% - 6rem) / 3);
 }
 
-/* div button {
+div button {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 11.8rem;
+    height: 3.4rem;
+    font-size: 1.4rem;
     display: none;
-} */
+} 
 
-.gallery div:hover {
-    background-size: 200%;
-    
-}
 
 /* From The Blog */
 
 .blog {
-    max-height: 817.59px;
+    max-height: 870px;
+  
 }
 
-.blog_article img {
 
-}
 
 .articles_container {
     display: flex;
