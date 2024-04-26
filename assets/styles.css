@@ -15,6 +15,7 @@ html {
 body {
     max-width: 1440px;
     overflow: hidden;
+    background-color: #F1F0F0;
 }
 
 @font-face {
@@ -112,6 +113,9 @@ header {
     background-position: center;
 }
 
+button:hover {
+    cursor: pointer;
+}
 /* Dion */
 
 /* Header */
@@ -139,13 +143,21 @@ nav {
     font-family: "alegreya-sc";
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
 
 .hamburger div{
     cursor: pointer;
     width: 35px;
     height: 5px;
     background-color: rgb(249, 249, 249);
-    margin: 6px 4vw 0 0 ;
+    margin: 6px 0 0 0 ;
 }
 
 
@@ -203,11 +215,12 @@ nav {
 /* On Latest Works */
 
 .entries {
-    height: 100vh;
+    height: auto;
     width: 100vw;
     max-width: 1440px;
     padding: 6rem 15rem;
     background-color: #F1F0F0;
+    margin-bottom: 10%;
 }
 
 .title {
@@ -323,7 +336,7 @@ nav {
 }
 
 .blog p {
-    margin: 1.8rem 0;
+    margin: 1.8rem 0 0 0 0;
     color: #6A6A6A;
 }
 
@@ -563,12 +576,7 @@ form input[type="submit"] {
             font-size: 1.2rem;
         }
 
-        .transparent{
-
-            padding-left: 290px;
-            padding-bottom: 80px;
-            padding-top: 30px;
-        }
+      
 
 }
 
@@ -577,11 +585,17 @@ form input[type="submit"] {
         padding: 2.4rem 2.4rem;
         height: auto;
     }
-    h1 {
-        font-size: 4.8rem;
+    .hero h1 {
+        font-size: 4.4rem;
         text-align: center;
         padding: 2vh 0;
     }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+
          /* Pablo */
 
          /* Our latest Works */
@@ -627,7 +641,7 @@ form input[type="submit"] {
 
          /* Footer */
         footer p {
-            width: 33%;
+            width: 34%;
         }
 
         /* Anna */
@@ -666,11 +680,6 @@ form input[type="submit"] {
         /* Header */
 
         /* Testimonials */
-        .transparent{
-            display: flex;
-            padding-left: 120px;
-
-        }
 
         .testimonials_container{
             display: flex;
