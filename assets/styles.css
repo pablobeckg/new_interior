@@ -279,11 +279,12 @@ nav {
 
 .img-container {
     background-position: center;
-    background-size: cover;
+    background-size: 112%;
+    transition: background-size 1s;
 }
 
 .img-container:hover {
-    background-size: 300%;
+    background-size: 200%;
 }
 
 .contain {
