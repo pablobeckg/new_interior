@@ -1,5 +1,7 @@
 # New Interior - Pablo's Design Showcase
 
+<img width="1083" alt="New Interior" src="https://github.com/user-attachments/assets/d854f7f0-452e-41dd-a5b0-6da3f90296d1">
+
 Welcome to **New Interior**, an innovative website to showcase modern interior design concepts. This site serves as a portfolio and inspiration platform for those interested in contemporary interior design.
 
 ## Table of Contents
